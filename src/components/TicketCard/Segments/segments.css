@@ -1,0 +1,25 @@
+.segments {
+  display: block;
+  /* background-color: orange; */
+}
+
+.segment__firts-line {
+  font-family: roboto;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  /* color: #0c73fe; */
+  color: #6c7e88;
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 0;
+}
+
+.segment__second-line {
+  font-family: roboto;
+  /* color: #0c73fe; */
+  color: #353535;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}

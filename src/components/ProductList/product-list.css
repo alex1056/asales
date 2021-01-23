@@ -1,0 +1,6 @@
+.product-list {
+  width: 100%;
+  /* background-color: #e0dd2e; */
+  display: flex;
+  flex-direction: column;
+}

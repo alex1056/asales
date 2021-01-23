@@ -1,4 +1,18 @@
-.App {
+.app {
+  max-width: 1280px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 0 10px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f8fbfb;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +49,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
