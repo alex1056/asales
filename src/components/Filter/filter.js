@@ -1,6 +1,15 @@
 import './filter.css';
 
-export default function Filter() {
+export default function Filter(props) {
+  const { filterTickets, setFilterTickets } = props;
+  const {
+    showAll,
+    show1Stop,
+    show2Stops,
+    show3Stops,
+    cheapest,
+    fastest,
+  } = filterTickets;
   return (
     <div className="filter">
       <div className="filter__changes">
@@ -9,9 +18,18 @@ export default function Filter() {
             <input
               className="checkbox__input"
               type="checkbox"
-              id="checkbox_1"
+              id="checkbox_1-all"
             />
-            <label className="checkbox__label" htmlFor="checkbox_1">
+            <label
+              onClick={() =>
+                setFilterTickets({
+                  ...filterTickets,
+                  showAll: !showAll,
+                })
+              }
+              className="checkbox__label"
+              htmlFor="checkbox_1-all"
+            >
               Все
             </label>
           </div>

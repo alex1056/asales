@@ -1,6 +1,7 @@
 .segments {
   display: block;
   /* background-color: orange; */
+  padding-bottom: 15px;
 }
 
 .segment__firts-line {
@@ -22,4 +23,8 @@
   font-weight: 500;
   margin: 0;
   padding: 0;
+}
+
+.segments:last-child {
+  padding-bottom: 0;
 }

@@ -1,0 +1,36 @@
+.button {
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  min-height: 50px;
+  padding: 12px 15px;
+  /* box-shadow: inset 0 -1px 0 #0656fe; */
+  color: #fff;
+  align-items: center;
+  display: inline-flex;
+  background: transparent;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  width: calc(100% - 30px);
+  transition-duration: 0.5s;
+  transition-property: background-color, box-shadow, color, opacity;
+  transition-timing-function: cubic-bezier(0.33, 0.96, 0.49, 1.01);
+  background-color: #0e95ef;
+  transition: background-color;
+}
+
+.button:hover {
+  background-color: #71bbff;
+  transition-timing-function: cubic-bezier(0.33, 0.96, 0.49, 1.01);
+  transition: background-color;
+}

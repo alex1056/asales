@@ -1,5 +1,6 @@
 .container {
   width: 80vw;
+  max-width: 1024px;
   min-height: 100vh;
   /* background-color: #23c172; */
   display: grid;
